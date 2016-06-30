@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Search Job Form</title>
+</head>
+<body>
+<form action="SearchJobServlet" method="post">
+Technology: 
+<input type="text" name="searchstring" value="java">
+<br><br>
+State: <select name="state" size="5" multiple>
+  <option value="RJ">Rio de Janeiro</option>
+  <option value="SP">Sao Paulo</option>
+  <option value="PR">Parana</option>
+  <option value="MG">Minas Gerais</option>
+  <option value="RS">Rio Grande do Sul</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Search Job">
+ </form>
+</body>
+</html>
